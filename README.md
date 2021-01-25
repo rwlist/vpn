@@ -24,7 +24,7 @@ source secrets.env && terraform apply
 
 # ssh to server and run:
 export SERVER_IP=
-curl ... > wrg.sh
+curl https://raw.githubusercontent.com/rwlist/vpn/master/scripts/wrg.sh > wrg.sh
 chmod +x wrg.sh
 ./wrg.sh init_module
 ./wrg.sh init_files
