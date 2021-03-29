@@ -3,7 +3,7 @@
 
 WIREGUARD_HOST=$(terraform output -raw external_ip_address_vm_wireguard)
 
-# nginx
+# wireguard setup
 ssh yc-user@$WIREGUARD_HOST << EOF
    export SERVER_IP=$WIREGUARD_HOST
     curl https://raw.githubusercontent.com/rwlist/vpn/master/scripts/wrg.sh > wrg.sh

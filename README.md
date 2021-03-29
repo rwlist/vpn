@@ -32,3 +32,17 @@ chmod +x wrg.sh
 ./wrg.sh system_run
 ./wrg.sh qrcode client2.conf
 ```
+
+## Connect to wireguard
+
+### Android
+
+Scan QR-code.
+
+### Linux
+
+TODO.
+
+### Windows
+
+Insert config into GUI app.
